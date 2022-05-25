@@ -73,7 +73,7 @@ def show_history_graph(history):
     plt.legend(['train', 'validation'], loc='upper left')
     plt.show() 
 
-                                               # callback to show the total time taken during training and for each epochsssssssssssss
+                                               # callback to show the total time taken during training and for each epochsssssssssssss done 
 class EpochTimer(keras.callbacks.Callback):
     train_start = 0
     train_end = 0
